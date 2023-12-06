@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+
+:root{
+
+    --light-text: #F9FAF8;
+    --dark-text: #1F2937;
+    --bg-dark: #1F2937;
+    --bg-quote: #E5E7EB;
+    --bg-button: #3882F6;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px 25px;
+    flex-wrap: wrap;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 25px 25px;
+}
+.col{
+
+}
+
+.col-sm{
+    width: 500px;
+}
+
+.nav{
+    overflow: hidden;
+    color: var(--light-text);
+    background-color: var(--bg-dark);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 18px;
+}
+
+.list{
+    list-style: none;
+}
+.list .list-horizontal{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: var(--light-text);
+}
+
+.nav-link:hover{
+    color: var(--bg-quote);
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.main{
+    background-color: var(--bg-dark);
+    color: var(--light-text);
+    height: 50vh;
+    font-size: 18px;
+}
+
+.main-image{
+    height: 400px;
+}
+.button-main{
+    text-decoration: none;
+    color: var(--light-text);
+    border-radius: 7px;
+    border: 2px solid var(--bg-button);
+    background-color: var(--bg-button);
+    padding: 10px 25px 10px 25px;
+    transition-duration: 0.2s;
+}
+.button-main:hover{
+    text-decoration: none;
+    border: 2px solid white;
+    background-color: transparent;
+    transition-duration: 0.2s;
+
+}
+.justify-end{
+    justify-content: end;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-space-evenly{
+    justify-content: space-evenly;
+}
+.justify-space-around{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.mr-auto{
+    margin-right: auto;
+}
+
+.ml-50{
+    margin-left: 50px;
+}
+.mr-50{
+    margin-right: 50px;
+}
+.mt-75{
+    margin-top: 75px;
+}
+.spacer{
+    margin-top: 58px;
+}
